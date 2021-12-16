@@ -1,0 +1,33 @@
+.maindelete {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.img-delete img {
+  display: inline-block;
+  width: 400px;
+  object-fit: cover;
+}
+
+.namedelete {
+  text-align: center;
+}
+
+.maindelete h1 {
+  text-transform: uppercase;
+  color: red;
+  margin: 0;
+}
+
+.btndelete {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.namedelete span {
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 15px;
+}

@@ -1,0 +1,186 @@
+.menu {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.thongtingiohang {
+  margin: 0 auto;
+  border-spacing: 0 20px;
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.thongtingiohang thead th {
+  font-size: 20px;
+}
+
+.thongtingiohang tbody tr td {
+  text-align: center;
+}
+
+.thongtingiohang tbody tr {
+  vertical-align: middle;
+}
+
+.title-sp-giohang {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.pro-name-box {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: fit-content;
+  max-width: 340px;
+}
+
+.pro-name-box span {
+  margin-left: 10px;
+}
+
+.img-donhang {
+  width: 50px;
+}
+
+.w350px {
+  width: 350px;
+}
+
+.choxuly,
+.daxuly,
+.thoigian,
+.giaohangthanhcong,
+.tuchoi {
+  padding: 7px 15px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.choxuly {
+  background-color: #faa307;
+}
+
+.daxuly,
+.giaohangthanhcong {
+  background-color: #00da7f;
+}
+
+.thoigian {
+  background-color: #56cfe1;
+}
+
+.tuchoi {
+  background-color: #e63946;
+}
+
+.menutabs {
+  display: flex;
+  width: 40%;
+  margin: 35px auto 0 auto;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+}
+
+.tab-item {
+  padding: 10px 0;
+  border-bottom: 5px solid transparent;
+  width: 100%;
+  color: #b98b73;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  /* margin: 0 10px; */
+}
+
+.tab-item:hover {
+  background: #e1ecf7;
+}
+
+.active-tab {
+  color: black;
+}
+
+.active-content {
+  display: block;
+}
+
+.line {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0px;
+  height: 5px;
+  border-radius: 50rem;
+  transition: all 0.2s ease-in-out;
+  background-color: #aecbeb;
+}
+
+.editbtn + .editbtn {
+  margin-left: 12px;
+}
+
+i.fas.fa-times {
+  font-size: 19px;
+}
+
+i.fas.fa-check {
+  font-size: 17px;
+}
+
+i.fas.fa-eye {
+  font-size: 18px;
+}
+
+.modal--textlh + .modal--textlh {
+  margin-top: 15px;
+}
+
+.modal__title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.modal__detail {
+  font-size: 18px;
+}
+
+.search-icon1 {
+  position: absolute;
+  top: 44px;
+  left: 1190px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.searchdonhang {
+  margin-top: 100px;
+}
+
+.maincontent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.centerline {
+  height: 100%;
+  width: 1px;
+  background-color: var(--color1);
+}

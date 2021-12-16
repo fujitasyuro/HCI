@@ -1,0 +1,141 @@
+.manage-box {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.manage-option {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  display: grid;
+  grid-template-columns: 350px 350px;
+  grid-template-rows: 150px 150px;
+  grid-gap: 10px 10px;
+  grid-template-areas:
+    "op1 op2"
+    "op3 op4"
+    "op5 op5";
+}
+
+.op1 {
+  grid-area: op1;
+  overflow: hidden;
+}
+
+.op2 {
+  grid-area: op2;
+  overflow: hidden;
+}
+
+.op3 {
+  grid-area: op3;
+  overflow: hidden;
+}
+
+.op4 {
+  grid-area: op4;
+  overflow: hidden;
+}
+
+.op5 {
+  grid-area: op5;
+  overflow: hidden;
+}
+
+.op1,
+.op2,
+.op3,
+.op4,
+.op5 {
+  border: 2px solid var(--color1);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.option-img {
+  height: 255px;
+  position: relative;
+  top: -50px;
+  z-index: -1;
+  transition: 0.2s linear;
+  left: -10px;
+  object-fit: cover;
+}
+
+.text-option1 {
+  z-index: 100;
+  position: absolute;
+  top: 53px;
+  left: 140px;
+  font-size: 40px;
+  color: black;
+  font-weight: 600;
+}
+
+.text-option3 {
+  z-index: 100;
+  position: absolute;
+  top: 205px;
+  left: 65px;
+  font-size: 40px;
+  color: black;
+  font-weight: 600;
+}
+
+.text-option4 {
+  z-index: 100;
+  position: absolute;
+  top: 205px;
+  left: 415px;
+  font-size: 40px;
+  color: black;
+  font-weight: 600;
+}
+
+.text-option2 {
+  z-index: 100;
+  position: absolute;
+  top: 53px;
+  left: 430px;
+  font-size: 40px;
+  color: black;
+  font-weight: 600;
+}
+
+.text-option5 {
+  z-index: 100;
+  position: absolute;
+  top: 424px;
+  left: 254px;
+  font-size: 40px;
+  color: black;
+  font-weight: 600;
+}
+
+.option-img5 {
+  width: 720px;
+  margin-top: -19px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-option {
+  display: none;
+  transition: 0.2s linear;
+}
+
+.op:hover .text-option {
+  display: block;
+  text-shadow: 2px 2px 4px var(--text-shadow);
+}
+
+.op:hover .option-img {
+  filter: blur(5px);
+}
+
+.op:hover {
+  box-shadow: 0 1px 4px 0 var(--box-shadow), 0 1px 10px 0 var(--box-shadow);
+}

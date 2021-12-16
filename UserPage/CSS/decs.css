@@ -1,0 +1,23 @@
+.main-desc {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.main-desc img {
+  width: 80% !important;
+  object-fit: cover;
+  overflow: hidden;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 15px;
+}
+
+.title-w {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.title-w h1 {
+  padding: 10px 0;
+}

@@ -1,0 +1,67 @@
+* {
+  font-family: "Google Sans", sans-serif;
+  --color1: rgb(112, 112, 112);
+  --main-color: rgb(134, 0, 168);
+  --box-item-color: white;
+  --text-color: black;
+  --text-shadow: #bdbdbd;
+  --box-shadow: rgba(0, 0, 0, 0.19);
+  --text-with-bg-color: white;
+}
+.avata-img {
+  font-size: 50px;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 50rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.mini-decs {
+  line-height: 27px !important;
+}
+
+table {
+  margin: 20px auto;
+  text-align: center;
+  border-spacing: 0 10px;
+}
+
+th {
+  width: 300px;
+  font-size: 20px;
+}
+
+th:first-child {
+  width: 150px;
+}
+
+table th,
+table td {
+  padding: 20px 0px;
+  text-align: center;
+  margin: 0 0;
+  vertical-align: middle;
+}

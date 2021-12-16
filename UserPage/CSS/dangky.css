@@ -1,0 +1,128 @@
+:root {
+  --color1: rgb(112, 112, 112);
+  --main-color: rgb(134, 0, 168);
+  --box-shadow: rgba(0, 0, 0, 0.19);
+}
+
+* {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Google Sans", sans-serif;
+  line-height: 30px;
+}
+
+body {
+  background-color: white;
+}
+
+.form-dangky {
+  width: 500px;
+  height: 670px;
+  border-radius: 15px;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-shadow: 0 1px 4px 0 var(--box-shadow), 0 1px 10px 0 var(--box-shadow);
+  transition: 0.2s linear;
+}
+
+.form-dangky:hover {
+  box-shadow: 0 2px 8px 0 var(--box-shadow), 0 2px 20px 0 var(--box-shadow);
+}
+
+.logo-img {
+  width: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  transform: translateX(-50%);
+}
+
+.logo-name {
+  position: absolute;
+  left: 50%;
+  top: 160px;
+  transform: translateX(-50%);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.form {
+  position: relative;
+  margin: 0 auto;
+  top: 250px;
+  width: 450px;
+}
+
+.input-box {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.input {
+  position: absolute;
+  left: 150px;
+  width: 270px;
+  outline: none;
+  border: 2px solid var(--color1);
+  border-radius: 10px;
+  transition: all 0.2s linear;
+  padding: 5px 10px;
+  top: -5px;
+}
+
+.input:hover {
+  box-shadow: 0 1px 4px 0 var(--box-shadow), 0 1px 5px 0 var(--box-shadow);
+}
+
+.input:focus {
+  border: 2px solid var(--main-color);
+  box-shadow: 0 1px 4px 0 var(--box-shadow), 0 1px 10px 0 var(--box-shadow);
+}
+
+.dangky {
+  border: 2px solid var(--main-color);
+  background-color: white;
+  padding: 10px 120px;
+  border-radius: 50rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+  top: 240px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dangky:hover {
+  background-color: var(--main-color);
+  color: white;
+  box-shadow: 0 1px 4px 0 var(--box-shadow), 0 1px 10px 0 var(--box-shadow);
+}
+
+.dacotaikhoan {
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  transform: translateX(-35%);
+  display: flex;
+  width: 100%;
+}
+
+.hr {
+  width: 250px;
+  outline: none;
+  border: 1px solid var(--color1);
+  border-radius: 50rem;
+  position: absolute;
+  top: 320px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dacotaikhoan a {
+  text-decoration: none;
+  color: blue;
+  margin-left: 10px;
+}

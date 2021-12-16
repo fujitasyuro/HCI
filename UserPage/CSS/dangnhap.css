@@ -1,0 +1,167 @@
+:root {
+  --gradient: linear-gradient(
+    45deg,
+    #845ec2,
+    #d65db1,
+    #ff6f91,
+    #ff9671,
+    #ffc75f,
+    #f9f871
+  );
+  --color1: rgb(112, 112, 112);
+  --main-color: rgb(134, 0, 168);
+  --box-shadow: rgba(0, 0, 0, 0.19);
+}
+
+* {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Google Sans", sans-serif;
+  line-height: 30px;
+}
+
+.BGG {
+  /* background-image: var(--gradient); */
+  /* background-size: 400%; */
+  /* animation: bg-animation 25s infinite alternate; */
+  background-color: white;
+}
+
+.form-dangnhap {
+  width: 500px;
+  height: 670px;
+  border-radius: 15px;
+  background-color: white;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  box-shadow: 0 1px 4px 0 var(--box-shadow), 0 1px 10px 0 var(--box-shadow);
+  transition: 0.2s linear;
+}
+
+.form-dangnhap:hover {
+  box-shadow: 0 2px 8px 0 var(--box-shadow), 0 2px 20px 0 var(--box-shadow);
+}
+
+.logo-img {
+  width: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  transform: translateX(-50%);
+}
+
+.logo-name {
+  position: absolute;
+  left: 50%;
+  top: 160px;
+  transform: translateX(-50%);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.form {
+  position: relative;
+  margin: 0 auto;
+  top: 300px;
+  width: 450px;
+}
+
+.tendangnhap,
+.matkhau {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.input {
+  position: absolute;
+  left: 150px;
+  width: 270px;
+  outline: none;
+  border: 2px solid var(--color1);
+  border-radius: 10px;
+  transition: all 0.2s linear;
+  padding: 5px 10px;
+  top: -5px;
+}
+
+.input:focus {
+  border: 2px solid var(--main-color);
+  box-shadow: 0 1px 4px 0 var(--box-shadow), 0 1px 10px 0 var(--box-shadow);
+}
+
+.input:hover {
+  box-shadow: 0 1px 4px 0 var(--box-shadow), 0 1px 5px 0 var(--box-shadow);
+}
+
+.dangnhap {
+  border: 2px solid var(--main-color);
+  background-color: white;
+  padding: 10px 120px;
+  border-radius: 50rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  position: absolute;
+  top: 170px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.dangnhap:hover {
+  /* background-image: var(--gradient);
+  background-size: 200%;
+  animation: bg-animation 25s infinite alternate; */
+  background-color: var(--main-color);
+  color: white;
+  box-shadow: 0 1px 4px 0 var(--box-shadow), 0 1px 10px 0 var(--box-shadow);
+}
+/* 
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+} */
+
+.quenmatkhau {
+  position: absolute;
+  top: 230px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-decoration: none;
+  color: blue;
+}
+
+.nhodangnhap {
+  position: absolute;
+  top: 115px;
+}
+
+.chuacotaikhoan {
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translateX(-35%);
+  display: flex;
+  width: 100%;
+}
+
+.chuacotaikhoan a {
+  text-decoration: none;
+  color: blue;
+  margin-left: 10px;
+}
+
+.hr {
+  width: 250px;
+  outline: none;
+  border: 1px solid var(--color1);
+  border-radius: 50rem;
+  position: absolute;
+  top: 275px;
+  left: 50%;
+  transform: translateX(-50%);
+}

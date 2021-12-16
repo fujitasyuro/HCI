@@ -1,0 +1,106 @@
+.footer-bg {
+  background-color: #232323;
+  width: 100%;
+  position: absolute;
+  color: white;
+  left: 0;
+  margin-top: 50px;
+  z-index: 100;
+}
+
+.footer {
+  width: 70%;
+  margin: 0 auto;
+  z-index: 110;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  width: 80%;
+}
+
+.logo-footer {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.logo-footer-img {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  width: 100px;
+}
+
+.logo-name-footer {
+  font-size: 40px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 5px;
+  color: white;
+  position: absolute;
+  top: 45px;
+  left: 130px;
+}
+
+.email-title {
+  position: absolute;
+  color: #bebebe;
+  font-size: 20px;
+  top: 50px;
+}
+
+.email-address {
+  position: absolute;
+  top: 85px;
+}
+
+.mid {
+  position: relative;
+  display: flex;
+  height: 200px;
+  width: 1000px;
+  justify-content: space-between;
+  margin: 0 auto;
+  top: -30px;
+}
+
+.list-box {
+  display: flex;
+}
+
+.list-box ul li {
+  margin-top: -15px;
+  margin-bottom: 27px;
+}
+
+.device-and-service-title,
+.policy-title,
+.about-us-title,
+.shop {
+  margin-left: 40px;
+  font-size: 20px;
+  color: rgb(241, 241, 241);
+}
+
+.list-device-and-service,
+.list-policy,
+.list-about-us,
+.list-shop {
+  list-style: none;
+}
+
+.list-device-and-service a,
+.list-policy a,
+.list-about-us a,
+.list-shop a {
+  text-decoration: none;
+  color: white;
+}
+
+.bottom {
+  margin-left: 50px;
+  margin-top: -20px;
+}

@@ -1,0 +1,169 @@
+.thongke {
+  width: 60%;
+  margin: 200px auto auto;
+  display: grid;
+  grid-template-areas:
+    "h1 h1 h2 h2 h3 h3"
+    "h4 h4 h4 h5 h5 h5";
+  text-align: center;
+}
+
+select#thoigian {
+  position: relative;
+  top: 135px;
+  left: 50%;
+  padding: 10px 25px;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  border: 2px solid var(--main-color);
+}
+
+.thongke-box {
+  height: 120px;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all 0.2s ease-in-out;
+}
+
+.thongke-box:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.luottruycap {
+  grid-area: h1;
+  background-color: #c048df;
+}
+
+.sodondathang {
+  grid-area: h2;
+  background-color: #faa307;
+}
+
+.sodondaduyet {
+  grid-area: h3;
+  background-color: #56cfe1;
+}
+
+.sodondagiao {
+  grid-area: h4;
+  background-color: #00da7f;
+}
+
+.doanhthu {
+  grid-area: h5;
+  background-color: #f8fc0c;
+}
+
+.thongke-title {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.thongke-title span {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.thongke-content {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.thongke-content {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.thaotacthongke {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 670px;
+}
+
+.thongkebtn i {
+  font-size: 20px;
+  color: white;
+  background-color: var(--main-color);
+  padding: 15px 50px;
+  border-radius: 100rem;
+  box-shadow: rgba(88, 88, 88, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.thongkebtn i:hover {
+  background-color: #c048df;
+  color: black;
+}
+
+/* BANG THONG KE */
+.bangthongke-container {
+  height: 730px;
+}
+
+.thongke__logo {
+  position: relative;
+}
+
+.thongke__logo img {
+  width: 130px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.thongke__logo span {
+  font-size: 30px;
+  font-weight: 600;
+  position: absolute;
+  top: 111px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+p.thongke-title {
+  font-size: 55px;
+  font-weight: 600;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 241px;
+}
+
+p.thongke-sub-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 295px;
+  font-weight: 600;
+}
+
+.thongke-text-title,
+.thongke-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 38px;
+}
+
+.thongke-text-title {
+  font-weight: 600;
+}
+
+.thongke-contents {
+  position: absolute;
+  top: 400px;
+  left: 104px;
+}
+
+.min-thongke {
+  margin-left: 25px;
+}
+
+.ngaythongke,
+.sosanh {
+  margin: 12px;
+}

@@ -1,0 +1,166 @@
+.don-hang {
+  display: flex;
+}
+
+.user-info {
+  flex: 2;
+  border: 2px solid var(--color1);
+  border-radius: 10px;
+  transition: 0.1s linear;
+}
+
+.details {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 25px;
+}
+
+.top-input,
+.mid-input,
+.bottom-input {
+  margin: 0 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-input div input {
+  width: 380px;
+  height: 35px;
+  border-radius: 10px;
+  border: 2px solid var(--color1);
+  outline: none;
+  padding: 0 10px;
+  transition: 0.1s linear;
+}
+
+.mid-input div input {
+  width: 250px;
+  height: 35px;
+  border-radius: 10px;
+  border: 2px solid var(--color1);
+  outline: none;
+  padding: 0 10px;
+  transition: 0.1s linear;
+}
+
+.bottom-input input {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  width: 850px;
+  height: 35px;
+  border-radius: 10px;
+  border: 2px solid var(--color1);
+  outline: none;
+  padding: 0 10px;
+  transition: 0.1s linear;
+}
+
+.top-input div input:focus,
+.mid-input div input:focus,
+.bottom-input input:focus {
+  border: 2px solid var(--main-color);
+  box-shadow: 0 1px 10px 0 var(--box-shadow), 0 1px 12px 0 var(--box-shadow);
+}
+
+.top-input div input:hover,
+.mid-input div input:hover,
+.bottom-input input:hover {
+  box-shadow: 0 1px 5px 0 var(--box-shadow), 0 1px 6px 0 var(--box-shadow);
+}
+
+.cart-info {
+  flex: 1;
+  margin-left: 20px;
+  border: 2px solid var(--color1);
+  border-radius: 10px;
+  transition: 0.1s linear;
+  padding: 0 10px;
+}
+
+.change {
+  display: flex;
+  justify-content: space-between;
+  padding: 21px 21px;
+  border-bottom: 2px solid var(--color1);
+}
+
+.change div span {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.change div a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(--main-color);
+}
+
+.cart-product {
+  padding: 21px 21px;
+  border-bottom: 2px solid var(--color1);
+}
+
+.c-p-name {
+  font-weight: 600;
+  font-weight: 16px;
+}
+
+.c-p-number {
+  font-weight: 600;
+  color: var(--main-color);
+  font-size: 18px;
+}
+
+.thanh-tien {
+  border: none;
+}
+
+.done {
+  border: none;
+  background-color: var(--main-color);
+  border-radius: 50px;
+  padding: 15px 20px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.1s linear;
+  text-decoration: none;
+}
+
+.pay-button {
+  border: 2px solid var(--main-color);
+  border-radius: 50px;
+  padding: 14px 20px;
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: 0.1s linear;
+}
+
+.bottom-button {
+  position: relative;
+  width: fit-content;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 20px 0px;
+}
+
+.done:hover,
+.pay-button:hover {
+  box-shadow: 0 1px 10px 0 var(--box-shadow), 0 1px 6px 0 var(--box-shadow);
+}
+
+.user-info:hover,
+.cart-info:hover {
+  box-shadow: 0 1px 5px 0 var(--box-shadow), 0 1px 6px 0 var(--box-shadow);
+}
+
+.box-tien {
+  display: flex;
+}

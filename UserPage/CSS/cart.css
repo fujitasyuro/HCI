@@ -1,0 +1,174 @@
+.cart-container {
+  border: 2px solid var(--color1);
+  border-radius: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.left-content {
+  display: flex;
+  flex: 2;
+  border-bottom: 2px solid var(--color1);
+}
+
+.cart-lap1 {
+  width: 300px;
+}
+
+.quantity-number {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.quantity-number input {
+  margin-left: 10px;
+  border: none;
+  transition: 0.1s linear;
+}
+
+.quantity-delete {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  margin: 10px 0 10px 10px;
+  padding: 4px 7px;
+  background-color: var(--main-color);
+  border-radius: 6px;
+  display: inline-block;
+  transition: 0.1s linear;
+  cursor: pointer;
+}
+
+.gift-cart {
+  margin-top: 5px;
+}
+
+.gift-cart-info {
+  margin: 5px 15px 0 10px;
+}
+
+.right-content {
+  overflow: hidden;
+}
+
+.dat-hang {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-25%);
+}
+
+.tam-tinh,
+.thanh-tien {
+  display: flex;
+  border-bottom: 2px solid var(--color1);
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.tam-tinh span {
+  margin: 21px 0px;
+  font-size: 18px;
+}
+
+.thanh-tien span {
+  margin: 21px 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.red-text {
+  color: red;
+}
+
+.dat-hang-buttom {
+  position: relative;
+  border-radius: 50px;
+  width: 300px;
+  height: 50px;
+  background-color: var(--main-color);
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.1s linear;
+  cursor: pointer;
+  border: 2px solid var(--main-color);
+  margin-right: 10px;
+  margin-bottom: 12px;
+}
+
+.dat-hang-buttom a {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  top: 13px;
+  text-decoration: none;
+  color: white;
+}
+
+.tra-gop-buttom {
+  position: relative;
+  border: 2px solid var(--main-color);
+  border-radius: 50px;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.1s linear;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-bottom: 12px;
+}
+
+.tra-gop-buttom p {
+  color: #000;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  top: -3px;
+}
+
+.quantity-delete:hover,
+.tra-gop-buttom:hover,
+.quantity-number input:hover,
+.dat-hang-buttom:hover {
+  box-shadow: 0 1px 4px 0 var(--box-shadow), 0 1px 10px 0 var(--box-shadow);
+}
+
+.giohang-title {
+  margin: 10px 0 10px 5px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.desc-text {
+  padding-left: 5px;
+  line-height: 34px;
+}
+
+.cart-img {
+  width: 300px;
+  object-fit: cover;
+  margin: 15px 30px;
+}
+
+.cart-desc {
+  margin-left: 80px;
+}
+
+.cart-price {
+  color: red;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.gia {
+  font-size: 20px;
+  font-weight: 600;
+}

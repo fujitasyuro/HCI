@@ -1,0 +1,63 @@
+.banner {
+  display: grid;
+  width: 50%;
+  height: 420px;
+  margin: 0 auto;
+  top: 18px;
+  position: relative;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1.8fr 1.2fr;
+  grid-template-areas:
+    "h1 h1"
+    "h2 h3";
+  grid-gap: 10px 10px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  /* box-shadow: 0 1px 4px 0 var(--box-shadow), 0 1px 10px 0 var(--box-shadow); */
+}
+
+.banner1st {
+  grid-area: h1;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.banner2st {
+  grid-area: h2;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.banner3st {
+  grid-area: h3;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.banner-img {
+  height: 180px;
+}
+
+.banner-img--large {
+  height: 350px;
+}
+
+.banner1st,
+.banner2st,
+.banner3st {
+  border-radius: 10px;
+  transition: 0.1s linear;
+}
+
+.banner1st:hover,
+.banner2st:hover,
+.banner3st:hover {
+  box-shadow: 0 1px 4px 0 var(--box-shadow), 0 1px 10px 0 var(--box-shadow);
+}
+
+.img-size {
+  width: 100%;
+}
